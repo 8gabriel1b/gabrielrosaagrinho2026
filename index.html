@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Agro Forte, Futuro Sustentável</h1>
+        <p>O equilíbrio perfeito entre a produção e a preservação do meio ambiente</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>O Grande Desafio do Século</h2>
+            <p>Como produzir alimentos para uma população crescente sem esgotar os recursos naturais? A resposta está no <strong>equilíbrio</strong>. A tecnologia aliada à sustentabilidade prova que o agro pode ser forte e, ao mesmo tempo, amigo do planeta.</p>
+        </section>
+
+        <section class="simulador">
+            <h2>Simulador de Equilíbrio AgroAmbiental</h2>
+            <p>Ative as práticas sustentáveis abaixo para equilibrar a balança da nossa fazenda virtual:</p>
+
+            <div class="opcoes">
+                <label class="item-pratica">
+                    <input type="checkbox" class="pratica-check" data-pontos="25">
+                    <span>🔄 <strong>Rotação de Culturas:</strong> Evita o desgaste do solo e reduz pragas.</span>
+                </label>
+                <label class="item-pratica">
+                    <input type="checkbox" class="pratica-check" data-pontos="25">
+                    <span>💧 <strong>Irrigação por Gotejamento:</strong> Economiza água direcionando-a à raiz.</span>
+                </label>
+                <label class="item-pratica">
+                    <input type="checkbox" class="pratica-check" data-pontos="25">
+                    <span>🛸 <strong>Drones e IA:</strong> Aplicação exata de insumos, evitando desperdício.</span>
+                </label>
+                <label class="item-pratica">
+                    <input type="checkbox" class="pratica-check" data-pontos="25">
+                    <span>☀️ <strong>Energia Solar:</strong> Reduz a pegada de carbono na operação da fazenda.</span>
+                </label>
+            </div>
+
+            <div class="resultado">
+                <h3>Nível de Sustentabilidade: <span id="score-texto">0%</span></h3>
+                <div class="barra-progresso">
+                    <div id="barra"></div>
+                </div>
+                <p id="mensagem">Sua fazenda precisa adotar práticas mais sustentáveis!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Projeto desenvolvido para o Concurso Agrinho</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
